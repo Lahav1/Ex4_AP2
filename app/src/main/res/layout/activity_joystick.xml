@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDC7CF"
+    tools:context=".LoginActivity">
+
+    <Button
+        android:id="@+id/sayHelloButton"
+        style="@android:style/Widget.Button"
+        android:layout_width="105dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="336dp"
+        android:background="#E25A5959"
+        android:text="Hello"
+        android:textColor="#BDC7CF"
+        android:textColorHighlight="#DA615F5F"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
